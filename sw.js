@@ -81,13 +81,13 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "404.html",
     "revision": "dec0e5853338d708b6f2602239bfa350"
   }, {
+    "url": "assets/About-Bibr-cxR.js",
+    "revision": null
+  }, {
     "url": "assets/About-CcJ0zBgN.css",
     "revision": null
   }, {
-    "url": "assets/About-fbbIlzWJ.js",
-    "revision": null
-  }, {
-    "url": "assets/Achievements-BA1SPbBy.js",
+    "url": "assets/Achievements-BgoLlkKL.js",
     "revision": null
   }, {
     "url": "assets/afk-DJNSSSwh.png",
@@ -96,7 +96,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/alliance_levels-B_mmXvbC.js",
     "revision": null
   }, {
-    "url": "assets/AllianceLevels-BLgnu5nA.js",
+    "url": "assets/AllianceLevels-Bm-IL_p7.js",
     "revision": null
   }, {
     "url": "assets/AlphaBadge01_DN-D97h6vTK.png",
@@ -201,7 +201,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/BlackCitadel-CSWY0bSI.png",
     "revision": null
   }, {
-    "url": "assets/BlueStar-Db8kCOTL.js",
+    "url": "assets/BlueStar-DB9FAumk.js",
     "revision": null
   }, {
     "url": "assets/BomberRocket_DrkNeb-C0bdwB-Q.png",
@@ -213,7 +213,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/calc-3ygvRG6y.png",
     "revision": null
   }, {
-    "url": "assets/Calculator-C9Hz5r1w.js",
+    "url": "assets/Calculator-BHz9Xh3N.js",
     "revision": null
   }, {
     "url": "assets/Calculator-Cg0pT11s.css",
@@ -237,7 +237,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/Cerberus-B8eLK8lL.css",
     "revision": null
   }, {
-    "url": "assets/Cerberus-DUWjccvi.js",
+    "url": "assets/Cerberus-osG0kU3c.js",
     "revision": null
   }, {
     "url": "assets/CerberusStation_DrkNeb_lv2-DPdLaz1L.png",
@@ -255,7 +255,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/compendium-OJCPYxrv.png",
     "revision": null
   }, {
-    "url": "assets/CompendiumCorp-5mrp8Ebo.js",
+    "url": "assets/CompendiumCorp-BWTEUR2b.js",
     "revision": null
   }, {
     "url": "assets/CompendiumCorp-CSgfgy54.png",
@@ -264,22 +264,22 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/CompendiumCorp-CuJ1oW5-.css",
     "revision": null
   }, {
-    "url": "assets/CompendiumPage-DWuHWZvi.css",
+    "url": "assets/CompendiumPage-BjhLhkbu.js",
     "revision": null
   }, {
-    "url": "assets/CompendiumPage-HfgOCsqp.js",
+    "url": "assets/CompendiumPage-DWuHWZvi.css",
     "revision": null
   }, {
     "url": "assets/CompendiumTech-BKmOi380.css",
     "revision": null
   }, {
-    "url": "assets/CompendiumTech-CxHRQm12.js",
-    "revision": null
-  }, {
     "url": "assets/compendiumTech-G_FTr1CO.png",
     "revision": null
   }, {
-    "url": "assets/compendiumTechList-CpicnKou.js",
+    "url": "assets/CompendiumTech-WO6RbBFZ.js",
+    "revision": null
+  }, {
+    "url": "assets/compendiumTechList-BBMI0AJd.js",
     "revision": null
   }, {
     "url": "assets/compileOne-CEuU7pZ7.js",
@@ -360,7 +360,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/CrystalCalc-2JfvS3T8.css",
     "revision": null
   }, {
-    "url": "assets/CrystalCalc-BhJDv4Zi.js",
+    "url": "assets/CrystalCalc-D-E-bThk.js",
     "revision": null
   }, {
     "url": "assets/dark_nebula_splash2-MmqRtyoE.png",
@@ -372,7 +372,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/Data-B6PAkXoH.css",
     "revision": null
   }, {
-    "url": "assets/Data-CHLXClCh.js",
+    "url": "assets/Data-Djf6rtcE.js",
     "revision": null
   }, {
     "url": "assets/de-Dea3yxBD.js",
@@ -456,10 +456,10 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/Distinction_WhiteStar50-C_E0IOf_.png",
     "revision": null
   }, {
-    "url": "assets/Distinctions-C2hQf3TZ.js",
+    "url": "assets/Distinctions-Dn0JDBpd.js",
     "revision": null
   }, {
-    "url": "assets/Drone-GCB6GFMv.js",
+    "url": "assets/Drone-BsySyoQ2.js",
     "revision": null
   }, {
     "url": "assets/en-CtmNDYn3.js",
@@ -531,7 +531,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/index-BgX41SUH.css",
     "revision": null
   }, {
-    "url": "assets/index-DzSmKHMA.js",
+    "url": "assets/index-DtFCpcks.js",
     "revision": null
   }, {
     "url": "assets/it-DDkmS3tc.js",
@@ -582,7 +582,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/Miner-BXgUXT5K.png",
     "revision": null
   }, {
-    "url": "assets/Mining-CzJkyrEM.js",
+    "url": "assets/Mining-DNNEotCM.js",
     "revision": null
   }, {
     "url": "assets/MiningDrone_DrkNeb_lv10-8CDvKnQ7.png",
@@ -606,22 +606,22 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/Module-aZr2p8RI.png",
     "revision": null
   }, {
-    "url": "assets/ModulePage-B5f15H6E.js",
+    "url": "assets/ModulePage-EWjJNI5y.js",
     "revision": null
   }, {
-    "url": "assets/ModulePage.vue_vue_type_script_setup_true_lang-UzLw0JoU.js",
+    "url": "assets/ModulePage.vue_vue_type_script_setup_true_lang-HQAqrKuF.js",
     "revision": null
   }, {
     "url": "assets/modules-calc-BZkcQRHh.png",
     "revision": null
   }, {
-    "url": "assets/ModulesCalc-CJzlftNh.js",
+    "url": "assets/ModulesCalc-BvovXAxG.js",
     "revision": null
   }, {
     "url": "assets/ModulesCalc-DRPZyWwV.css",
     "revision": null
   }, {
-    "url": "assets/MultiConfigGUI-CwkwOIij.js",
+    "url": "assets/MultiConfigGUI-BpLrj83M.js",
     "revision": null
   }, {
     "url": "assets/MultiConfigGUI-NW0OdhRV.css",
@@ -633,19 +633,19 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/news_Update02-BadjuNso.png",
     "revision": null
   }, {
-    "url": "assets/NumberPicker-COl0eLpW.js",
+    "url": "assets/NumberPicker-DtQZ2w5T.css",
     "revision": null
   }, {
-    "url": "assets/NumberPicker-DtQZ2w5T.css",
+    "url": "assets/NumberPicker-DU54sA0b.js",
     "revision": null
   }, {
     "url": "assets/OmegaRocket_DrkNeb-BUhjO7EP.png",
     "revision": null
   }, {
-    "url": "assets/Page-_A5k4SLV.js",
+    "url": "assets/Page-CBluQNan.css",
     "revision": null
   }, {
-    "url": "assets/Page-CBluQNan.css",
+    "url": "assets/Page-CtOkfGQ1.js",
     "revision": null
   }, {
     "url": "assets/planet_levels-unpUm6_N.js",
@@ -657,7 +657,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/planets-calc-lJcyVupo.png",
     "revision": null
   }, {
-    "url": "assets/PlanetsCalc-CznLxNk2.js",
+    "url": "assets/PlanetsCalc-D6Zaauqu.js",
     "revision": null
   }, {
     "url": "assets/PlanetsCalc-Djzp8jIy.css",
@@ -786,7 +786,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/RedStar-AS62qKzs.css",
     "revision": null
   }, {
-    "url": "assets/RedStar-Bo3OKGW9.js",
+    "url": "assets/RedStar-LJmPck2w.js",
     "revision": null
   }, {
     "url": "assets/relic-DwLHtnf2.png",
@@ -831,10 +831,10 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/ru-DxFky_vd.js",
     "revision": null
   }, {
-    "url": "assets/sec2str-BekYjVf3.js",
+    "url": "assets/sec2str-CqR_vxEK.js",
     "revision": null
   }, {
-    "url": "assets/Shield-BpNXpjHN.js",
+    "url": "assets/Shield-DwEy3-FK.js",
     "revision": null
   }, {
     "url": "assets/ship-build-DfiNRMMG.png",
@@ -843,7 +843,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/ShipBuild-Bm_Ohccp.css",
     "revision": null
   }, {
-    "url": "assets/ShipBuild-DOmRdcDI.js",
+    "url": "assets/ShipBuild-BP8P_fiq.js",
     "revision": null
   }, {
     "url": "assets/ShipmentDrone_lv1_DrkNeb-CocMcnki.png",
@@ -852,7 +852,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/ShipmentDrone_lv1-DyQl-_4O.png",
     "revision": null
   }, {
-    "url": "assets/Ships-DPtL_cks.js",
+    "url": "assets/Ships-hKyMD21j.js",
     "revision": null
   }, {
     "url": "assets/Ships-pHVa8Cjx.css",
@@ -864,10 +864,10 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/SpaceBuilding-Dr5PEKZ_.png",
     "revision": null
   }, {
-    "url": "assets/SpaceBuildings-Bq0SQFOm.js",
+    "url": "assets/spacebuildings-CVaBZ2bu.js",
     "revision": null
   }, {
-    "url": "assets/spacebuildings-CVaBZ2bu.js",
+    "url": "assets/SpaceBuildings-Duh8TiPY.js",
     "revision": null
   }, {
     "url": "assets/spinner-C1SrKZmM.png",
@@ -927,16 +927,16 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/station_WhiteStarScanner-WEF49hLK.png",
     "revision": null
   }, {
-    "url": "assets/Support-Dd07W8L_.js",
+    "url": "assets/Support-Dmi04xJ3.js",
     "revision": null
   }, {
     "url": "assets/TechList-BA-FTlie.css",
     "revision": null
   }, {
-    "url": "assets/TechList-bByxjTIB.js",
+    "url": "assets/TechList-Cz8oZc8W.js",
     "revision": null
   }, {
-    "url": "assets/ThirdPartyTools-C8exRwYQ.js",
+    "url": "assets/ThirdPartyTools-CVfhiT1m.js",
     "revision": null
   }, {
     "url": "assets/ThirdPartyTools-CvwPG3JN.css",
@@ -954,7 +954,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/tr-BnntBR-B.js",
     "revision": null
   }, {
-    "url": "assets/Trade-D9qUX9Ez.js",
+    "url": "assets/Trade-CPPNk-ox.js",
     "revision": null
   }, {
     "url": "assets/Transport_DrkNeb_lv1-DEIqbjk1.png",
@@ -1005,25 +1005,25 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "url": "assets/warpLaneHub-CJmJ23AQ.png",
     "revision": null
   }, {
-    "url": "assets/Weapon-4FFDGhCF.js",
-    "revision": null
-  }, {
-    "url": "assets/WhiteStar-C2Opoohg.js",
+    "url": "assets/Weapon-BbzQHW2C.js",
     "revision": null
   }, {
     "url": "assets/WhiteStar-DPvGUycL.css",
     "revision": null
   }, {
+    "url": "assets/WhiteStar-YvNn0QHN.js",
+    "revision": null
+  }, {
     "url": "assets/workbox-window.prod.es5-D5gOYdM7.js",
     "revision": null
   }, {
-    "url": "assets/WSMatches-B9pUC9dj.js",
+    "url": "assets/WSMatches-CgrK0vt2.js",
     "revision": null
   }, {
     "url": "assets/WSMatches-ClEYegtZ.css",
     "revision": null
   }, {
-    "url": "assets/YellowStar-ICThJusg.js",
+    "url": "assets/YellowStar-COunBCgr.js",
     "revision": null
   }, {
     "url": "assets/YellowStar-zjWRpSg1.css",
@@ -1093,7 +1093,7 @@ define(['./workbox-b5f7729d'], (function (workbox) { 'use strict';
     "revision": "a2df64f3da8fbbc8caf8b7f684c7ff95"
   }, {
     "url": "index.html",
-    "revision": "f5becaaf7f0f260f75b3637c4fe7da64"
+    "revision": "58f9c2ee1196db4dc54a0bf86d3accc1"
   }, {
     "url": "meta-image.png",
     "revision": "ebb83cdcac2992bb6f891618c45cc2f0"
