@@ -1,1 +1,0 @@
-import{_ as e}from"./ModulePage.vue_vue_type_script_setup_true_lang-QkS1kzh1.js";import{_ as o}from"./index-BzS2eOr3.js";const s=o(e,[["__file","/home/runner/work/HadesSpace/HadesSpace/src/components/ModulePage.vue"]]);export{s as M};
