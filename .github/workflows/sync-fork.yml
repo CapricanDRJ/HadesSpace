@@ -1,0 +1,80 @@
+name: Sync Fork with Upstream (Preserve Custom Files & Patch Deploy Workflow)
+env:
+  PAT_TOKEN: ${{ secrets.CUSTOM_TOKEN }}
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:       # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Fork
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Add Upstream Repository
+        run: |
+          git remote add upstream https://github.com/userxinos/HadesSpace.git || echo "Upstream already added."
+
+      - name: Backup Custom Files (CNAME & sync workflow)
+        run: |
+          for file in CNAME .github/workflows/sync-fork.yml; do
+            if [ -f "$file" ]; then
+              cp "$file" "/tmp/$(basename "$file")_backup"
+              echo "Backed up $file."
+            else
+              echo "$file not found, skipping backup."
+            fi
+          done
+
+      - name: Sync with Upstream
+        run: |
+          git fetch upstream
+          git checkout master  # Change if your default branch is different
+          git reset --hard upstream/master
+          git clean -fd
+          echo "Fork synced with upstream."
+
+      - name: Restore Custom Files
+        run: |
+          for file in CNAME .github/workflows/sync-fork.yml; do
+            backup="/tmp/$(basename "$file")_backup"
+            if [ -f "$backup" ]; then
+              mv "$backup" "$file"
+              git add "$file"
+              echo "Restored $file."
+            else
+              echo "No backup found for $file, skipping restore."
+            fi
+          done
+
+      - name: Patch Vite Config for Custom Domain
+        run: |
+          if [ -f "vite.config.js" ]; then
+            # Replace the production base value `/HadesSpace/` with `/`
+            sed -i 's|/HadesSpace/|/|g' vite.config.js
+            git add vite.config.js
+            echo "Patched vite.config.js to set base to '/' for production."
+          else
+            echo "vite.config.js not found, skipping patch."
+          fi
+          
+      - name: Configure Git Identity
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync upstream and patch deploy workflow for custom domain"
+          fi
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push --force origin master
