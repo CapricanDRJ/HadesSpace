@@ -1,0 +1,1 @@
+import{_ as r}from"./ModulePage.vue_vue_type_script_setup_true_lang-BF6bgd7C.js";import{c as t,o}from"./index-FyNot3si.js";import"./Page-BfVHf0KU.js";import"./Data-oQLo2Y7G.js";import"./globals-CcfoU8Dw.js";import"./sec2str-BdiyaxoM.js";const f={__name:"Trade",setup(p){return(e,a)=>(o(),t(r,{type:"Trade",portrait:"portrait_ShipmentDrone.png"}))}};export{f as default};
